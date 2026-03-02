@@ -14,7 +14,7 @@ from dotenv import dotenv_values
 from pathlib import Path
 
 
-def show_films(cursor, title):sni
+def show_films(cursor, title):
     print(f"\n-- {title} --")
 
     query = """
